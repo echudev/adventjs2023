@@ -4,7 +4,6 @@ Los regalos son cadenas de texto y los materiales son caracteres. Tu tarea es es
 
 Un regalo se puede fabricar si contamos con todos los materiales necesarios para fabricarlo.
 
-<pre>
 ```javascript
 const gifts = ['tren', 'oso', 'pelota']
 const materials = 'tronesa'
@@ -24,4 +23,3 @@ const materials = 'psli'
 
 manufacture(gifts, materials) // []
 ```
-</pre>

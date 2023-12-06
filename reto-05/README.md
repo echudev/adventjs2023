@@ -12,7 +12,7 @@ Cada unidad de tiempo, **el trineo avanza una posición a la derecha**. Si encue
 
 **Crea una función que simule el movimiento del trineo durante un tiempo dado y devuelva un array** de cadenas representando el estado de la carretera en cada unidad de tiempo:
 
-<pre>
+
 ```javascript
 const road = 'S..|...|..'
 const time = 10 // unidades de tiempo
@@ -34,7 +34,6 @@ const result = cyberReindeer(road, time)
 */
 
 ```
-</pre>
 
 El resultado es un **array donde cada elemento muestra la carretera en cada unidad de tiempo**.
 

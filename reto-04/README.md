@@ -4,7 +4,7 @@ En el taller de Santa 🎅, algunos mensajes navideños han sido escritos de man
 
 Eso sí, ten en cuenta que **pueden existir paréntesis anidados**, por lo que debes invertir los caracteres en el orden correcto.
 
-<pre>
+
 ```javascript
 const a = decode('hola (odnum)')
 console.log(a) // hola mundo
@@ -19,7 +19,7 @@ console.log(c) // santaclaus
 // 1. Invertimos el anidado -> sa(ualcatn)s
 // 2. Invertimos el que queda -> santaclaus
 ```
-</pre>
+
 
 Notas:
 

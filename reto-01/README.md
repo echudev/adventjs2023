@@ -6,7 +6,6 @@ Sin embargo, debido a un error en la máquina de juguetes, algunos números se h
 
 En otras palabras, si hay más de un número repetido, debes devolver el número cuya segunda ocurrencia aparezca primero en la lista. Si no hay números repetidos, devuelve -1.
 
-<pre>
 ```javascript
 const giftIds = [2, 1, 3, 5, 3, 2]
 const firstRepeatedId = findFirstRepeated(giftIds)
@@ -23,6 +22,5 @@ const giftIds3 = [5, 1, 5, 1]
 const firstRepeatedId3 = findFirstRepeated(giftIds3)
 console.log(firstRepeatedId3) // 5
 ```
-</pre>
 
 **¡Ojo!** Los elfos dicen que esto es una prueba técnica de Google.
