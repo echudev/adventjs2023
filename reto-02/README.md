@@ -1,4 +1,4 @@
-# Reto #02
+# Reto #02: 🏭 Ponemos en marcha la fábrica
 
 En el taller de Santa, los elfos tienen una **lista de regalos** que desean fabricar y un conjunto limitado de materiales.
 

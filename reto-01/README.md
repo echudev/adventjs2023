@@ -1,4 +1,4 @@
-# Reto #01
+# Reto #01: 🎁 ¡Primer regalo repetido!
 
 En la fábrica de juguetes del Polo Norte, cada juguete tiene un número de identificación único.
 

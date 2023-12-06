@@ -1,4 +1,4 @@
-# Reto #04
+# Reto #04: 😵‍💫 Dale la vuelta a los paréntesis
 
 En el taller de Santa 🎅, algunos mensajes navideños han sido escritos de manera peculiar: **las letras dentro de los paréntesis deben ser leídas al revés**
 

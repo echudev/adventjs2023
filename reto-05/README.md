@@ -1,4 +1,4 @@
-# Reto #05
+# Reto #05: 🛷 El CyberTruck de Santa
 
 Santa 🎅 está probando su nuevo trineo eléctrico, el CyberReindeer, en una carretera del Polo Norte. La carretera se representa con una cadena de caracteres, donde:
 
