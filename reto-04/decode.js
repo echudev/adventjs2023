@@ -3,6 +3,9 @@
 // Pueden existir paréntesis anidados (hasta 2)
 
 function decode(message) {
+  // el regex busca coincidencias de patrones que comienzan con "("
+  // seguido de cualquier cantidad de caracteres que no sean paréntesis,
+  // y luego termina con ")"
   const regex = /\(([^()]*)\)/g;
 
   // Función auxiliar para invertir una cadena
@@ -10,9 +13,13 @@ function decode(message) {
     return str.split("").reverse().join("");
   }
 
+  //el método .test devuelve true si encuentra coincidencias o false si no las hay
   while (regex.test(message)) {
     message = message.replace(regex, (_, content) => reverseString(content));
   }
+  // El método .replace recibe 2 parámetros, el patrón a reemplazar y el reemplazo
+  // el patrón puede ser una cadena o un objeto con un método (generalmente una expresión regular).
+  // el reemplazo puede ser una cadena o una función que será invocada para cada coincidencia y su retorno será usado como texto de reemplazo.
 
   return message;
 }
