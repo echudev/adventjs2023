@@ -11,7 +11,7 @@ function maxGifts(houses) {
   let excl = 0;
 
   for (let i = 1; i < houses.length; i++) {
-    // Guardar el valor anterior de incl
+    // Guarda el valor anterior de incl
     let temp = incl;
 
     // La nueva incl es el máximo entre la suma excluyendo el elemento anterior y sumando el elemento actual
@@ -20,8 +20,6 @@ function maxGifts(houses) {
     // La nueva excl es el valor anterior de incl
     excl = temp;
   }
-
-  console.log(Math.max(incl, excl));
 
   return Math.max(incl, excl);
 }
