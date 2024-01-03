@@ -8,4 +8,18 @@ function transformTree(tree, i = 0) {
   return node;
 }
 
-console.log(transformTree([3, 1, 0, 8, 12, null, 1]));
+// function transformTree(tree) {
+//   let max = tree.length;
+
+//   let i = (arguments[1] ??= 0);
+//   let r = +(i >= max) + +(tree[i] == null);
+//   let resp;
+
+//   [false][+(r <= 0)] ??= resp = {
+//     value: tree[i],
+//     left: transformTree(tree, i * 2 + 1),
+//     right: transformTree(tree, i * 2 + 2),
+//   };
+
+//   return (resp ??= null);
+// }
