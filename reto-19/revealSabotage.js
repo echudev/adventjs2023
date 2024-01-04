@@ -1,0 +1,3 @@
+function revealSabotage(store) {
+  return [];
+}
